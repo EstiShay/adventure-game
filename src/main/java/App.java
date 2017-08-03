@@ -17,7 +17,7 @@ public class App {
             String inputString = bufferedReader.readLine();
 
             if (inputString.equals("a")){
-//                newGame.startGame();
+                newGame.acceptMission();
             } else if (inputString.equals("b")){
                 newGame.rejectMission();
 
