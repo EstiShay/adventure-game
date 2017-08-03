@@ -59,6 +59,26 @@ public class Adventure {
 
     }
 
+    public String tryHotel() {
+        String answer = "";
+        System.out.println("You walk up to the inn and knock on the door. You don't speak French, but you're sure you'll be able to negotiate something. The door opens. 'Qu'est-ce que tu veux? Nous n'avons pas de chambres pour des personnes comme vous.' The anger in their voice makes the meaning clear; you're not welcome.  You turn back.  Do you a) sleep at the filling station or b) camp in the woods? ");
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+            String inputString = bufferedReader.readLine();
+
+            if (inputString.equals("a")) {
+                answer = "a";
+            } else if (inputString.equals("b")){
+                answer = "b";
+            } else {
+                answer = "error";
+            }
+        }
+        catch(IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 //    public String testMethod() {
 //        System.out.println("Hi");
 //        return null;

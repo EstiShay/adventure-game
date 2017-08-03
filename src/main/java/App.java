@@ -27,13 +27,18 @@ public class App {
             }
 
             if (lePuyInput.equals("a")){
-
-
+                String outcome = newGame.tryHotel();
+                if (outcome.equals("a")){
+                    newGame.sleepOnBike();
+                } else if (outcome.equals("b")){
+                    newGame.campInWoods();
+                } else {
+                    System.out.println("tryHotel error");
+                }
             } else if (lePuyInput.equals("b")){
-
+                    newGame.campInWoods();
             } else if (lePuyInput.equals("c")) {
                 newGame.sleepOnBike();
-
             } else {
                 System.out.println("lePuyInput error");
             }
