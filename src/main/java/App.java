@@ -13,10 +13,8 @@ public class App {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
             String inputString = bufferedReader.readLine();
 
-
             if (inputString.equals("a")){
-                System.out.println("On with the show");
-
+//                Adventure.startGame();
             } else if (inputString.equals("b")){
 
             } else {

@@ -10,8 +10,8 @@ public class AdventureTest {
         assertEquals(true, testAdventure instanceof Adventure);
     }
     @Test
-    public void startGame_storyProvided_null () throws Exception {
+    public void rejectMission_gameEndMessage_messageEndProgram () throws Exception {
         Adventure testAdventure = new Adventure();
-        assertEquals(null, testAdventure.startGame());
+        assertEquals(null, testAdventure.rejectMission());
     }
 }
