@@ -27,7 +27,15 @@ public class App {
             }
 
             if (lePuyInput.equals("a")){
-                
+
+
+            } else if (lePuyInput.equals("b")){
+
+            } else if (lePuyInput.equals("c")) {
+                newGame.sleepOnBike();
+
+            } else {
+                System.out.println("lePuyInput error");
             }
         }
         catch(IOException e)
