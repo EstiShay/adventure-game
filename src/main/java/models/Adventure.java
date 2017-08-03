@@ -15,9 +15,4 @@ public class Adventure {
         System.out.println("You've rejected the mission and will be court-martialed for insubordination and sent back to the U.S.  Game over.");
         return null;
     }
-
-//     public String startGame() {
-//
-//
-//     }
 }

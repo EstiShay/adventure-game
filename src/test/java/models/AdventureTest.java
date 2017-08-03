@@ -14,4 +14,9 @@ public class AdventureTest {
         Adventure testAdventure = new Adventure();
         assertEquals(null, testAdventure.rejectMission());
     }
+    @Test
+    public void acceptMission_gameStart_nextGameStep() throws Exception {
+        Adventure testAdventure = new Adventure();
+        assertEquals(null, testAdventure.acceptMission());
+    }
 }
