@@ -17,14 +17,16 @@ Adventure game...
 
 ## Specifications
 
-| Behavior      | Example Input         | Example Output        |
+| Behavior      | Example Input      | Example Output       |
 | ------------- | ------------- | ------------- |
-|
+|Start the game | Run program | Story Line |
+|User decides to play game | Accept | Next stage of the story |
+
 
 
 ## Technologies Used
 
-Java
+Java, IntelliJ
 
 ### License
 
