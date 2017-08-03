@@ -9,9 +9,9 @@ public class AdventureTest {
         Adventure testAdventure = new Adventure();
         assertEquals(true, testAdventure instanceof Adventure);
     }
-//    @Test
-//    public void startGame_() throws Exception {
-//        Adventure testAdventure = new Adventure();
-//        assertEquals(null, testAdventure.startGame());
-//    }
+    @Test
+    public void startGame_storyProvided_null () throws Exception {
+        Adventure testAdventure = new Adventure();
+        assertEquals(null, testAdventure.startGame());
+    }
 }
