@@ -24,8 +24,10 @@ public class Adventure {
 
             if (inputString.equals("a")) {
                 answer = "a";
-            } else if (inputString.equals("b")){
+            } else if (inputString.equals("b")) {
                 answer = "b";
+            } else if (inputString.equals("c")) {
+                answer = "c";
             } else {
                 answer = "error";
             }
@@ -68,8 +70,10 @@ public class Adventure {
 
             if (inputString.equals("a")) {
                 answer = "a";
-            } else if (inputString.equals("b")){
+            } else if (inputString.equals("b")) {
                 answer = "b";
+            } else if (inputString.equals("c")){
+                answer = "c";
             } else {
                 answer = "error";
             }
@@ -77,6 +81,7 @@ public class Adventure {
         catch(IOException e) {
             e.printStackTrace();
         }
+        return answer;
     }
 
 //    public String testMethod() {

@@ -26,19 +26,24 @@ public class App {
                 System.out.println("Error");
             }
 
+            String hotelInput = "";
+            String campingInput = "";
+            String sleepOnBikeInput = "";
+            String hotelOutcome = "";
+
             if (lePuyInput.equals("a")){
-                String outcome = newGame.tryHotel();
-                if (outcome.equals("a")){
+                hotelOutcome = newGame.tryHotel();
+                if (hotelOutcome.equals("a")){
                     newGame.sleepOnBike();
-                } else if (outcome.equals("b")){
-                    newGame.campInWoods();
+                } else if (hotelOutcome.equals("b")){
+//                    newGame.campInWoods();
                 } else {
                     System.out.println("tryHotel error");
                 }
-            } else if (lePuyInput.equals("b")){
-                    newGame.campInWoods();
+//            } else if (lePuyInput.equals("b")){
+//                    newGame.campInWoods();
             } else if (lePuyInput.equals("c")) {
-                newGame.sleepOnBike();
+                sleepOnBikeInput = newGame.sleepOnBike();
             } else {
                 System.out.println("lePuyInput error");
             }
