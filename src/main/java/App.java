@@ -16,13 +16,18 @@ public class App {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
             String inputString = bufferedReader.readLine();
 
+            String lePuyInput = "";
+
             if (inputString.equals("a")){
-                newGame.acceptMission();
+                lePuyInput = newGame.acceptMission();
             } else if (inputString.equals("b")){
                 newGame.rejectMission();
-
             } else {
                 System.out.println("Error");
+            }
+
+            if (lePuyInput.equals("a")){
+                
             }
         }
         catch(IOException e)
